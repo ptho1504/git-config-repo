@@ -9,6 +9,3 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 server:
   port: 8761
-logging:
-  pattern:
-    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
