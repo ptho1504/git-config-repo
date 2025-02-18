@@ -1,14 +1,10 @@
+server:
+  port: 8222
 eureka:
   instance:
-    hostname: localhost
-    # hostname: discovery-server
+    hostname: discovery-server
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-server:
-  port: 8761
-logging:
-  pattern:
-    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
