@@ -1,0 +1,6 @@
+server:
+  port: 8200
+eureka:
+  instance:
+    hostname: localhost
+    # hostname: discovery-server
