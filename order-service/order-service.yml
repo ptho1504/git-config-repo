@@ -1,0 +1,21 @@
+server:
+  port: 8500
+eureka:
+  instance:
+    hostname: localhost
+    # hostname: discovery-server
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cms_orders
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    properties:
+      hibernates:
+        format_sql: true
