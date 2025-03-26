@@ -9,4 +9,4 @@ eureka:
 spring:
   cloud:
     config:
-      override-system-properties: false
+      override-system-properties: true
