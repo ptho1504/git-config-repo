@@ -3,4 +3,4 @@ server:
 eureka:
   instance:
     hostname: localhost
-    # hostname: discovery-server
+    hostname: discovery-server
