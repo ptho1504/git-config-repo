@@ -10,7 +10,7 @@ eureka:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cms_users
+    url: jdbc:mysql://mysql_container:3306/cms_users
     username: root
     password: password
   jpa:
