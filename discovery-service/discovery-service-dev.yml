@@ -1,7 +1,7 @@
 eureka:
   instance:
-    hostname: localhost
-    # hostname: discovery-server
+    # hostname: localhost
+    hostname: discovery-server
   client:
     registerWithEureka: false
     fetchRegistry: false
