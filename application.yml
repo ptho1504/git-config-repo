@@ -1,9 +1,11 @@
 eureka:
   instance:
-    hostname: localhost
+    # hostname: localhost
+    hostname: discovery-server
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      # defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
 spring:
   cloud:
     config:
