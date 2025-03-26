@@ -5,7 +5,9 @@ eureka:
     # hostname: localhost
     hostname: discovery-server
   client:
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       # defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       # defaultZone: http://discovery-server:8222/eureka/
-      defaultZone: http://discovery-server:8762/eureka/
+      defaultZone: http://discovery-server:8761/eureka/
