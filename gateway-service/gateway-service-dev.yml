@@ -2,5 +2,5 @@ server:
   port: 8222
 eureka:
   instance:
-    hostname: localhost
+    # hostname: localhost
     hostname: discovery-server
