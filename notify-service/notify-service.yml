@@ -2,8 +2,8 @@ server:
   port: 8700
 eureka:
   instance:
-    hostname: localhost
-    # hostname: discovery-server
+    # hostname: localhost
+    hostname: discovery-server
 spring:
   # datasource:
   #   driver-class-name: com.mysql.cj.jdbc.Driver

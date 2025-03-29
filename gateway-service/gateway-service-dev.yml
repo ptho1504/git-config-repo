@@ -2,8 +2,8 @@ server:
   port: 8222
 eureka:
   instance:
-    # hostname: localhost
-    hostname: discovery-server
+    hostname: localhost
+    # hostname: discovery-server
   client:
     registerWithEureka: true
     fetchRegistry: true

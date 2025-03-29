@@ -2,12 +2,12 @@ server:
   port: 8600
 eureka:
   instance:
-    hostname: localhost
-    # hostname: discovery-server
+    # hostname: localhost
+    hostname: discovery-server
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cms_payments
+    url: jdbc:mysql://mysql-server:3306/cms_payments
     username: root
     password: password
   jpa:
